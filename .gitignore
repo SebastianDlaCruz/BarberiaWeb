@@ -1,0 +1,5 @@
+#carpetas que parcel genera
+parcel-cache
+dist
+node_modules
+pnpm-lock.yaml

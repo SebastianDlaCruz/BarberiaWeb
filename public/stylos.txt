@@ -1,0 +1,21 @@
+Estilos de css
+--color-primario : #1F2021;
+--color-secundario : #B87004;
+--color-blanco : #FFFFFF;
+--color-gris : #C7CED4;
+--color-crema: #D1973E;
+
+Fonts
+Titles
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap" rel="stylesheet"> 
+
+font-family: 'Roboto Slab', serif;
+
+==============================================
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&display=swap" rel="stylesheet">
+font-family: 'Maven Pro', sans-serif;

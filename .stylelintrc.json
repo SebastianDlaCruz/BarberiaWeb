@@ -1,0 +1,25 @@
+{
+    "extends": "stylelint-config-standard",
+    "plugins": [
+        "stylelint-no-browser-hacks/lib"
+    ],
+    "rules": {
+        "color-no-invalid-hex": true,
+        "indentation": 2,
+        "string-quotes": "double",
+        "no-duplicate-selectors": true,
+        "color-hex-case": "lower",
+        "color-hex-length": "long",
+        "color-named": "never",
+        "property-no-unknown": true,
+        "plugin/no-browser-hacks": [
+            true,
+            {
+                "browsers": [
+                    "last 2 versions",
+                    "ie >=8"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lobo | Barbe Shop</title>
+    <!--* Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&display=swap" rel="stylesheet">
+    <!--* javascript -->
+    <script type="module" src="./js/index.js"></script>
+</head>
+
+<body>
+
+    <!--comentario HEADER -->
+    <header class="header" id="header">
+        <img src="../public/icon/escobilta.svg" alt="escobita" class="header__img">
+        <button class="header__button" id="btn-nav"></button>
+        <nav class="header-nav" id="nav">
+            <header class="header-nav__header">
+                <button id="btn-menu"></button>
+                <h2>Lobo Barber Shop</h2>
+            </header>
+            <menu class="header-nav-menu">
+                <li class="header-nav-menu__li"><a href="#section-hero">Inicio</a></li>
+                <li class="header-nav-menu__li"><a href="#section-cortes">Cortes</a></li>
+                <li class="header-nav-menu__li"><a href="#section-sobre">Sobre Nosotros</a></li>
+                <li class="header-nav-menu__li"><a href="#section-equipo">Equipo</a></li>
+                <li class="header-nav-menu__li"><a href="#section-turnos">Turnos</a></li>
+                <li class="header-nav-menu__li"><a href="#section-contacto">Contacto</a></li>
+            </menu>
+        </nav>
+    </header>
+
+    <!--comentario SECTION HERO -->
+    <section class="section-hero" id="section-hero">
+        <picture>
+            <source media="(min-width:1200px)" srcset="../public/img/hoerImgDesktop.jpg" type="image/webp">
+            <img src="../public/img/heroImgMovil.jpg" alt="hero img barber" class="section-hero__img">
+        </picture>
+        <div class="flex">
+            <h1 class="section-hero__title">LOBO Barber Shop</h1>
+            <strong class="section-hero__strong">"No hay hombres feos, solo hombres que no conocen un buen
+                barbero"</strong>
+        </div>
+
+        <footer class="section-hero-footer">
+            <div class="section-hero-footer__continer">
+                <h3>Reserva tu Turno</h3>
+                <p>En Lobo barber Shop queremos hacerte la vida mas facil.Podes reservar tu turno</p>
+            </div>
+            <a href="#" class="section-hero-footer__a">Reservar Turno</a>
+        </footer>
+    </section>
+
+    <!--comentario SECTION CORTES -->
+
+    <section class="section-cortes" id="section-cortes">
+        <header class="section-cortes__header">
+            <h2 class="subtitle">Nuestros Cortes</h2>
+            <h4>Conoce de nuestros Cortes</h4>
+        </header>
+
+        <button class="section-cortes__button--izquierdo"></button>
+        <ul class="section-cortes-carrucel">
+            <li class="section-cortes-carrucel-li">
+                <header class="section-cortes-carrucel-li__header">
+                    <img src="../public/img/cortes.jpg" alt="cortes" class="section-cortes-carrucel-li__img">
+                </header>
+                <div class="contenedor-info">
+                    <div>
+                        <b class="contenedor-info">Numero de Corte: </b>
+                        <span>XXX</span>
+                    </div>
+                    <div>
+                        <b class="contenedor-info">Precio del Corte: </b>
+                        <span>XXX</span>
+                    </div>
+                </div>
+                <footer class="section- cortes-carrucel-li__footer">
+                    <a href="#" class="section-cortes-carrucel-li__a">Pedir Turno</a>
+                </footer>
+            </li>
+            <li class="section-cortes-carrucel-li">
+                <header class="section-cortes-carrucel-li__header">
+                    <img src="../public/img/cortes.jpg" alt="cortes" class="section-cortes-carrucel-li__img">
+                </header>
+                <div class="contenedor-info">
+                    <div>
+                        <b class="contenedor-info">Numero de Corte: </b>
+                        <span>XXX</span>
+                    </div>
+                    <div>
+                        <b class="contenedor-info">Precio del Corte: </b>
+                        <span>XXX</span>
+                    </div>
+                </div>
+                <footer class="section- cortes-carrucel-li__footer">
+                    <a href="#" class="section-cortes-carrucel-li__a">Pedir Turno</a>
+                </footer>
+            </li>
+            <li class="section-cortes-carrucel-li">
+                <header class="section-cortes-carrucel-li__header">
+                    <img src="../public/img/cortes.jpg" alt="cortes" class="section-cortes-carrucel-li__img">
+                </header>
+                <div class="contenedor-info">
+                    <div>
+                        <b class="contenedor-info">Numero de Corte: </b>
+                        <span>XXX</span>
+                    </div>
+                    <div>
+                        <b class="contenedor-info">Precio del Corte: </b>
+                        <span>XXX</span>
+                    </div>
+                </div>
+                <footer class="section- cortes-carrucel-li__footer">
+                    <a href="#" class="section-cortes-carrucel-li__a">Pedir Turno</a>
+                </footer>
+            </li>
+        </ul>
+        <button class="section-cortes__button--derecho"></button>
+    </section>
+
+    <!--comentario SECTION SOBRE LA BARBERIA -->
+
+    <section class="section-sobre" id="section-sobre">
+        <header class="section-sobre__header">
+            <picture>
+                <source media="(min-width:1200px)" srcset="../public/img/sobreImgDesktop.jpg">
+                <img src="../public/img/SobreImgMovil.jpg" alt="img sobre la barberia">
+            </picture>
+        </header>
+        <article class="section-sobre-article">
+            <header class="section-sobre-article__header">
+                <h2 class="subtitle">Sobre la Barberia</h2>
+            </header>
+            <div class="section-sobre-article__contenedor">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Aut aspernatur expedita doloribus fugiat cumque debitis eligendi,
+                    ab quod repellendus error repellat pariatur ratione
+                    quae assumenda tempore praesentium minima obcaecati! Nesciunt.
+
+                </p>
+            </div>
+        </article>
+    </section>
+    <!--comentario SECTION EQUIPO  -->
+    <section class="section-equipo" id="section-equipo">
+        <header class="section-equipo__header">
+            <h2 class="subtitle">Equipo</h2>
+        </header>
+        <div class="section-equipo__container">
+            <article class="section-equipo-article">
+                <img src="../public/img/equipo.jpg" alt="equipo" class="section-equipo-article__img">
+                <footer class="section-equipo-article__footer">
+                    <h3>Juan Perez</h3>
+                </footer>
+            </article>
+            <article class="section-equipo-article">
+                <img src="../public/img/equipo.jpg" alt="equipo" class="section-equipo-article__img">
+                <footer class="section-equipo-article__footer">
+                    <h3>Juan Perez</h3>
+                </footer>
+            </article>
+            <article class="section-equipo-article">
+                <img src="../public/img/equipo.jpg" alt="equipo" class="section-equipo-article__img">
+                <footer class="section-equipo-article__footer">
+                    <h3>Juan Perez</h3>
+                </footer>
+            </article>
+
+        </div>
+    </section>
+
+    <!--comentario SECTION CONTACTO -->
+    <section class="section-contacto" id="section-contacto">
+        <header class="section-contacto__header">
+            <h2 class="subtitle">Contacto</h2>
+        </header>
+        <div class="section-contacto__container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3291.143955514086!2d-58.74411734636218!3d-34.42309833702331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9f5dcf6a8c0d%3A0xa3b3b29bbea4d94e!2sElectromecanica%20Ayza!5e0!3m2!1ses-419!2sar!4v1664208943270!5m2!1ses-419!2sar"
+                width="600" height="632" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <form class="section-contacto-form">
+                <h3 class="section-contacto-form__h3">Formulario</h3>
+                <label for="name">Nombre :</label>
+                <input type="text" name="name" id="name" placeholder="ejemplo:sebastian">
+
+                <label for="tel">Tel :</label>
+                <input type="tel" name="tel" id="tel" placeholder="ejemplo:+541159236367">
+
+                <label for="email">Email :</label>
+                <input type="email" name="email" id="email" placeholder="ejemplo:sebas@gmail.com">
+
+                <label for="comentarios">Comentarios :</label>
+                <textarea name="comentarios" id="comentarios" cols="30" rows="10"
+                    placeholder="ejemaplo:Hola quiero preguntar algo"></textarea>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </section>
+
+    <!--comentario FOOTER -->
+
+    <footer class="footer">
+        <div class="footer-contenedor">
+            <img src="../public/icon/escobilta.svg" alt="escobita">
+            <h3 class="footer-contenedor__h3">Lobo Barber Shop</h3>
+        </div>
+
+        <ul class="footer__ul">
+            <li>
+                <figcaption>
+                    <img src="../public/icon/navajas.svg" alt="navajas">
+                    <figcaption>Cortes con Navaja</figcaption>
+                </figcaption>
+            </li>
+            <li>
+                <figcaption>
+                    <img src="../public/icon/tijera.svg" alt="tijera">
+                    <figcaption>Estilos personalizados</figcaption>
+                </figcaption>
+            </li>
+            <li>
+                <figcaption>
+                    <img src="../public/icon/escobilta.svg" alt="escobita">
+                    <figcaption>Buena Calidad</figcaption>
+                </figcaption>
+            </li>
+        </ul>
+        <a href="#" class="footer__whatsapp">
+            <img src="../public/icon/logosWhatsappMovil.svg" alt="logo whatsapp">
+        </a>
+
+        <p class="footer__p">
+            Copyright &copy; 2022. Diseño Web realizado por <strong>Sebastian De La Cruz</strong>
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
