@@ -1,6 +1,6 @@
 const StyleHeader = {
     '--background-header': '#1f2021',
-    '--border-header': ' #c7ced4'
+    '--border-header': ' #d1973e'
 }
 
 export default StyleHeader;

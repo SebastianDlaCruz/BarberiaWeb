@@ -180,6 +180,11 @@ body {
 .section-cortes {
   position: relative;
 
+  &__header {
+    margin-top: 20px;
+    padding-top: 29px;
+  }
+
   &__button--izquierdo,
   &__button--derecho {
     position: absolute;
@@ -210,14 +215,15 @@ body {
 
   &-carrucel {
     display: flex;
-    justify-content: center;
-    margin: 0.6rem 0;
-    transform: translateX(0%);
+    margin: 6rem 0;
+    padding: 0 5px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 
     &-li {
-      min-inline-size: 340px;
-      max-block-size: 494px;
-      margin: 0 1rem;
+      min-inline-size: 352px;
+      min-block-size: 494px;
+      margin: 0  2rem;
       border: 1px solid var(--color-crema);
       border-radius: 3px;
 
@@ -269,7 +275,8 @@ body {
     max-inline-size: 749px;
 
     &__header {
-      padding: 1rem;
+      margin-top: 20px;
+      padding-top: 29px;
       border-bottom: 1px solid var(--color-blanco);
     }
 
@@ -281,6 +288,11 @@ body {
 
 /* comentario SECTION EQUIPO */
 .section-equipo {
+  &__header {
+    margin-top: 20px;
+    padding-top: 29px;
+  }
+
   &__container {
     display: flex;
     flex-flow: row wrap;
@@ -317,6 +329,11 @@ body {
 
 .section-contacto {
   min-block-size: 60vh;
+
+  &__header {
+    margin-top: 20px;
+    padding-top: 29px;
+  }
 
   &__container {
     display: flex;
@@ -492,7 +509,7 @@ body {
   /* comentario Footer */
   .footer {
     &-contenedor {
-      justify-content: flex-start;
+      /* justify-content: flex-start; */
       margin-left: 2rem;
 
       img {
