@@ -1,0 +1,66 @@
+{
+    "cortes": [
+        {
+            "id": 1,
+            "numeroDeCorte": 1,
+            "img": "../img/cortes.jpg",
+            "precio": 120
+        },
+        {
+            "id": 2,
+            "numeroDeCorte": 2,
+            "img": "../img/cortes.jpg",
+            "precio": 120
+        },
+        {
+            "id": 3,
+            "numeroDeCorte": 3,
+            "img": "../img/cortes.jpg",
+            "precio": 140
+        },
+        {
+            "id": 4,
+            "numeroDeCorte": 4,
+            "img": "../img/cortes.jpg",
+            "precio": 200
+        },
+        {
+            "id": 5,
+            "numeroDeCorte": 5,
+            "img": "../img/cortes.jpg",
+            "precio": 430
+        },
+        {
+            "id": 6,
+            "numeroDeCorte": 6,
+            "img": "../img/cortes.jpg",
+            "precio": 350
+        },
+        {
+            "id": 7,
+            "numeroDeCorte": 7,
+            "img": "../img/cortes.jpg",
+            "precio": 500
+        }
+    ],
+    "barbaros": [
+        {
+            "id": 1,
+            "img": "../img/cortes.jpg",
+            "nombre": "Juan",
+            "apellido": "Perez"
+        },
+        {
+            "id": 2,
+            "img": "../img/cortes.jpg",
+            "nombre": "Juan",
+            "apellido": "Perez"
+        },
+        {
+            "id": 3,
+            "img": "../img/cortes.jpg",
+            "nombre": "Juan",
+            "apellido": "Perez"
+        }
+    ]
+}

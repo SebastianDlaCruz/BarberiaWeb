@@ -71,61 +71,7 @@
 
         <button class="section-cortes__button--izquierdo" id="btn-carrusel-izquierdo"></button>
         <ul class="section-cortes-carrucel" id="carrusel">
-            <li class="section-cortes-carrucel-li">
-                <header class="section-cortes-carrucel-li__header">
-                    <img src="../public/img/cortes.jpg" alt="cortes" class="section-cortes-carrucel-li__img">
-                </header>
-                <div class="contenedor-info">
-                    <div>
-                        <b class="contenedor-info">Numero de Corte: </b>
-                        <span>XXX</span>
-                    </div>
-                    <div>
-                        <b class="contenedor-info">Precio del Corte: </b>
-                        <span>XXX</span>
-                    </div>
-                </div>
-                <footer class="section- cortes-carrucel-li__footer">
-                    <a href="#" class="section-cortes-carrucel-li__a">Pedir Turno</a>
-                </footer>
-            </li>
 
-            <li class="section-cortes-carrucel-li">
-                <header class="section-cortes-carrucel-li__header">
-                    <img src="../public/img/cortes.jpg" alt="cortes" class="section-cortes-carrucel-li__img">
-                </header>
-                <div class="contenedor-info">
-                    <div>
-                        <b class="contenedor-info">Numero de Corte: </b>
-                        <span>XXX</span>
-                    </div>
-                    <div>
-                        <b class="contenedor-info">Precio del Corte: </b>
-                        <span>XXX</span>
-                    </div>
-                </div>
-                <footer class="section- cortes-carrucel-li__footer">
-                    <a href="#" class="section-cortes-carrucel-li__a">Pedir Turno</a>
-                </footer>
-            </li>
-            <li class="section-cortes-carrucel-li">
-                <header class="section-cortes-carrucel-li__header">
-                    <img src="../public/img/cortes.jpg" alt="cortes" class="section-cortes-carrucel-li__img">
-                </header>
-                <div class="contenedor-info">
-                    <div>
-                        <b class="contenedor-info">Numero de Corte: </b>
-                        <span>XXX</span>
-                    </div>
-                    <div>
-                        <b class="contenedor-info">Precio del Corte: </b>
-                        <span>XXX</span>
-                    </div>
-                </div>
-                <footer class="section- cortes-carrucel-li__footer">
-                    <a href="#" class="section-cortes-carrucel-li__a">Pedir Turno</a>
-                </footer>
-            </li>
         </ul>
         <button class="section-cortes__button--derecho" id="btn-carrusel-derecho"></button>
     </section>
@@ -250,7 +196,26 @@
         </p>
     </footer>
 
-    <template>
+    <template id="template-servicios">
+        <li class="section-cortes-carrucel-li">
+            <header class="section-cortes-carrucel-li__header">
+                <img class="section-cortes-carrucel-li__img" id="img">
+            </header>
+            <div class="contenedor-info">
+                <div>
+                    <b class="contenedor-info">Numero de Corte: </b>
+                    <span id="numero"></span>
+                </div>
+                <div>
+                    <b class="contenedor-info">Precio del Corte: </b>
+                    <span id="precio"></span>
+                </div>
+            </div>
+            <footer class="section- cortes-carrucel-li__footer">
+                <a href="#" class="section-cortes-carrucel-li__a">Pedir Turno</a>
+            </footer>
+        </li>
+
 
     </template>
 
