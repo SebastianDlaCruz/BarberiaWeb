@@ -45,6 +45,4 @@ doc.addEventListener("DOMContentLoaded", () => {
     HeaderAnimation($sectionHero, style);
     MoverCarrusel($carrusel);
 });
-
-
 /* json-server --watch debugger.json */

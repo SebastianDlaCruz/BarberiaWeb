@@ -54,13 +54,19 @@
             "id": 2,
             "img": "../img/cortes.jpg",
             "nombre": "Alan",
-            "apellido": "Sanches"
+            "apellido": "Sanchez"
         },
         {
             "id": 3,
             "img": "../img/cortes.jpg",
             "nombre": "Sebastian",
             "apellido": "De La Cruz"
+        },
+        {
+            "id": 4,
+            "img": "../img/cortes.jpg",
+            "nombre": "Pepe",
+            "apellido": "Argento"
         }
     ]
 }
