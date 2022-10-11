@@ -379,6 +379,10 @@ body {
       background-color: var(--color-blanco);
     }
 
+    :is(input):invalid {
+      background-color: #ff0000f3;
+    }
+
     input[type="submit"] {
       margin: 1rem 0;
       padding: 0.7rem 4rem;

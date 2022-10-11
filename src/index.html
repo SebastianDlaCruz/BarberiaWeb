@@ -105,25 +105,7 @@
         <header class="section-equipo__header">
             <h2 class="subtitle">Equipo</h2>
         </header>
-        <div class="section-equipo__container">
-            <article class="section-equipo-article">
-                <img src="../public/img/equipo.jpg" alt="equipo" class="section-equipo-article__img">
-                <footer class="section-equipo-article__footer">
-                    <h3>Juan Perez</h3>
-                </footer>
-            </article>
-            <article class="section-equipo-article">
-                <img src="../public/img/equipo.jpg" alt="equipo" class="section-equipo-article__img">
-                <footer class="section-equipo-article__footer">
-                    <h3>Juan Perez</h3>
-                </footer>
-            </article>
-            <article class="section-equipo-article">
-                <img src="../public/img/equipo.jpg" alt="equipo" class="section-equipo-article__img">
-                <footer class="section-equipo-article__footer">
-                    <h3>Juan Perez</h3>
-                </footer>
-            </article>
+        <div class="section-equipo__container" id="contenedor-barbero">
 
         </div>
     </section>
@@ -142,13 +124,17 @@
             <form class="section-contacto-form">
                 <h3 class="section-contacto-form__h3">Formulario</h3>
                 <label for="name">Nombre :</label>
-                <input type="text" name="name" id="name" placeholder="ejemplo:sebastian">
+                <input type="text" name="name" id="name" placeholder="ejemplo:sebastian"
+                    pattern="^([A-Za-zÑñÁáÉéÍíÓóÚú]+['\-]{0,1}[A-Za-zÑñÁáÉéÍíÓóÚú]+)(\s+([A-Za-zÑñÁáÉéÍíÓóÚú]+['\-]{0,1}[A-Za-zÑñÁáÉéÍíÓóÚú]+))*$"
+                    title="El nombre tiene caracteres invalidos">
 
                 <label for="tel">Tel :</label>
                 <input type="tel" name="tel" id="tel" placeholder="ejemplo:+541159236367">
 
                 <label for="email">Email :</label>
-                <input type="email" name="email" id="email" placeholder="ejemplo:sebas@gmail.com">
+                <input type="email" name="email" id="email" placeholder="ejemplo:sebas@gmail.com"
+                    pattern=' /^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$/'
+                    title="El email tiene caracteres incorrectos">
 
                 <label for="comentarios">Comentarios :</label>
                 <textarea name="comentarios" id="comentarios" cols="30" rows="10"
@@ -196,6 +182,8 @@
         </p>
     </footer>
 
+    <!--comentario TEMPLATES DINAMISCOS -->
+
     <template id="template-servicios">
         <li class="section-cortes-carrucel-li">
             <header class="section-cortes-carrucel-li__header">
@@ -215,8 +203,15 @@
                 <a href="#" class="section-cortes-carrucel-li__a">Pedir Turno</a>
             </footer>
         </li>
+    </template>
 
-
+    <template id="template-barberos">
+        <article class="section-equipo-article">
+            <img src="../public/img/equipo.jpg" alt="equipo" class="section-equipo-article__img" id="img">
+            <footer class="section-equipo-article__footer">
+                <h3 id="NombreYApellido"></h3>
+            </footer>
+        </article>
     </template>
 
 </body>
