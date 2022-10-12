@@ -1,0 +1,43 @@
+.footer {
+  block-size: 20vh;
+  margin-top: 2rem;
+
+  &-contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__h3 {
+      font-size: var(--step-3);
+      font-weight: 300;
+      font-family: var(--font-principal);
+    }
+  }
+
+  &__ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 7rem  2rem;
+    gap: 93px;
+  }
+
+  &__whatsapp {
+    position: fixed;
+    inset-block-end: 1%;
+    inset-inline-end: 2%;
+  }
+}
+
+@media screen and (width >= 1200px) {
+  .footer {
+    &-contenedor {
+      margin-left: 2rem;
+
+      img {
+        margin-right: 1.4rem;
+      }
+    }
+  }
+}

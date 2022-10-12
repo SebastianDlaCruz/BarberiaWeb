@@ -9,11 +9,6 @@
     "start": "parcel",
     "build": "parcel build"
   },
-  "@parcel/transformer-css": {
-    "drafts": {
-      "nesting": true
-    }
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",

@@ -9,93 +9,6 @@ body {
   overflow-x: hidden;
 }
 
-/* comentario HEADER */
-.header {
-  position: fixed;
-  inset-block-start: 0;
-  inset-inline: 0;
-  display: flex;
-  justify-content: space-between;
-  block-size: 90px;
-  padding: 1rem;
-  background-color: var(--background-header);
-  border-block-end: 1px  solid;
-  border-block-end-color: var(--border-header);
-  transition:
-    background-color var(--transicion-2),
-    border-block-end-color var(--transicion-2);
-  z-index: 2;
-
-  &__button {
-    padding: 1em 2.3em;
-    background-image: url("../../../public/icon/hamburger.svg");
-    background-repeat: no-repeat;
-  }
-
-  &-nav {
-    position: absolute;
-    inset-block-start: 0;
-    inset-inline: 0;
-    block-size: 100vh;
-    background-color: var(--color-primario);
-    transform: translateX(100%);
-    transition: transform var(--transicion-1);
-
-    &__header {
-      display: flex;
-      justify-content: space-between;
-      padding: 1rem;
-
-      & button {
-        padding: 2rem;
-        background-image: url("../../../public/icon/exit.svg");
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-
-      & h2 {
-        font-size: var(--step-5);
-        font-family: var(--font-principal);
-        font-weight: 300;
-      }
-    }
-
-    &-menu {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      block-size: 550px;
-      padding: 0;
-      margin-block-start: 4rem;
-      gap: 30px;
-
-      &__li {
-        text-align: center;
-
-        a {
-          display: inline-block;
-          inline-size: 200px;
-          padding: 1em;
-          border: 1px solid var(--color-crema);
-          font-size: var(--step-4);
-          border-radius: 5px;
-          color: var(--color-blanco);
-          background-color: transparent;
-          transition: background-color var(--transicion-1);
-
-          &:hover {
-            background-color: var(--color-crema);
-          }
-        }
-      }
-    }
-  }
-
-  .header-nav.nav-is-active {
-    transform: translateX(0);
-  }
-}
-
 /* comentario SECTION HERO */
 
 .section-hero {
@@ -409,86 +322,8 @@ body {
 
 /* comentario Foote */
 
-.footer {
-  block-size: 20vh;
-  margin-top: 2rem;
-
-  &-contenedor {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    &__h3 {
-      font-size: var(--step-3);
-      font-weight: 300;
-      font-family: var(--font-principal);
-    }
-  }
-
-  &__ul {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    margin: 7rem  2rem;
-    gap: 93px;
-  }
-
-  &__whatsapp {
-    position: fixed;
-    inset-block-end: 1%;
-    inset-inline-end: 2%;
-  }
-}
-
 /* comentario MEDIA */
-@media screen and (min-width: 1200px) {
-  /* comentario Header */
-  .header {
-    &__button {
-      opacity: 0;
-      visibility: hidden;
-    }
-
-    &__img {
-      position: absolute;
-      margin-block-start: 4px;
-      inset-inline: 49%;
-      z-index: 1;
-    }
-
-    &-nav {
-      block-size: 100%;
-      inline-size: 100%;
-      transform: rotateX(0);
-      transition: none;
-      margin: 0 auto;
-      background-color: transparent;
-
-      &__header {
-        display: none;
-      }
-
-      &-menu {
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
-        block-size: 100%;
-        inline-size: 100%;
-        margin: 0;
-
-        &__li a {
-          inline-size: 160px;
-          padding: 0.5em 0;
-        }
-
-        &__li:nth-child(3) {
-          margin-inline-end: 8%;
-        }
-      }
-    }
-  }
-
+@media screen and (width >= 1200px) {
   /* comentario SECTION HERO */
   .section-hero-footer {
     justify-content: space-around;
@@ -506,18 +341,6 @@ body {
       &__contenedor,
       &__header .subtitle {
         text-align: left;
-      }
-    }
-  }
-
-  /* comentario Footer */
-  .footer {
-    &-contenedor {
-      /* justify-content: flex-start; */
-      margin-left: 2rem;
-
-      img {
-        margin-right: 1.4rem;
       }
     }
   }
